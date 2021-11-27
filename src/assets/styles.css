@@ -1,0 +1,52 @@
+.search-wrapper {
+  position: relative;
+}
+
+.search-wrapper label {
+  position: absolute;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  top: 8px;
+  left: 12px;
+  z-index: -1;
+  -webkit-transition: .15s all ease-in-out;
+  transition: .15s all ease-in-out;
+}
+
+.search-wrapper input {
+  padding: 4px 12px;
+  color: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  -webkit-transition: .15s all ease-in-out;
+  transition: .15s all ease-in-out;
+  background: white;
+}
+
+.search-wrapper input:focus {
+  outline: none;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.search-wrapper input:focus + label {
+  font-size: 10px;
+  -webkit-transform: translateY(-24px) translateX(-12px);
+          transform: translateY(-24px) translateX(-12px);
+}
+
+.search-wrapper input::-webkit-input-placeholder {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 100;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 12px;
+  margin: auto;
+}
+/*# sourceMappingURL=styles.css.map */

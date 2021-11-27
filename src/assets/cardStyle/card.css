@@ -1,0 +1,50 @@
+.card {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+  width: 31.5vw;
+  margin: 12px;
+  -webkit-transition: .15s all ease-in-out;
+  transition: .15s all ease-in-out;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card a {
+  text-decoration: none;
+  padding: 12px;
+  color: #03A9F4;
+  font-size: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card a small {
+  font-size: 10px;
+  padding: 4px;
+}
+
+.hotpink {
+  background: hotpink;
+}
+
+.green {
+  background: green;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+/*# sourceMappingURL=card.css.map */
